@@ -1,0 +1,70 @@
+body {
+    margin: 0%;
+    padding: 0;
+}
+
+.navbar {
+    background-color: red;
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.logo {
+    color: royalblue;
+    margin-left: 4%;
+    padding-top: 5px;
+}
+
+.search {
+    position: relative;
+    bottom: 65px;
+    left: 15%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    bottom: 65px;
+    left: 60%;
+}
+
+.first_container {
+    color: salmon;
+    background-color: #F5EEDC;
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+}
+
+.first {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    color: sienna;
+    left: 50px;
+}
+
+.second {
+    position: relative;
+    left: 20%;
+    display: inline-block;
+    width: 100px;
+    color: sienna;
+}
+
+.third {
+    position: relative;
+    left: 38%;
+    display: inline-block;
+    width: 100px;
+    color: sienna;
+}
+
+.fourth {
+    position: relative;
+    left: 55%;
+    display: inline-block;
+    width: 100px;
+}
