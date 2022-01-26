@@ -30,41 +30,153 @@ li {
     left: 60%;
 }
 
+li ul td {
+    color: yellowgreen;
+}
+
+
+/* first container starts from here */
+
 .first_container {
     color: salmon;
-    background-color: #F5EEDC;
+    background-color: #9AD0EC;
     margin: 0;
     position: relative;
     bottom: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .first {
-    position: relative;
-    display: inline-block;
-    width: 100px;
-    color: sienna;
-    left: 50px;
+    padding-left: 60px;
+    padding-top: 20px;
+    color: black;
+}
+
+.first img {
+    border-radius: 10%;
 }
 
 .second {
-    position: relative;
-    left: 20%;
-    display: inline-block;
-    width: 100px;
-    color: sienna;
+    padding-left: 60px;
+    padding-top: 20px;
+    color: black;
+}
+
+.second img {
+    border-radius: 10%;
 }
 
 .third {
-    position: relative;
-    left: 38%;
-    display: inline-block;
-    width: 100px;
-    color: sienna;
+    padding-left: 60px;
+    padding-top: 20px;
+    color: black;
+}
+
+.three img {
+    border-radius: 10%;
 }
 
 .fourth {
-    position: relative;
-    left: 55%;
+    padding-left: 60px;
+    padding-top: 20px;
+    color: black;
+}
+
+.fourth img {
+    border-radius: 10%;
+}
+
+
+/* second conatiner starts from here */
+
+.second_container {
+    height: 400px;
+    background-color: tomato;
+}
+
+.img {
     display: inline-block;
+    position: relative;
+    background-image: url(images/class.jpg);
+    background-size: cover;
+    /* opacity: 50%; */
+    width: 50%;
+    height: 420px;
+    bottom: 20px;
+}
+
+.class {
+    position: relative;
+    background-color: turquoise;
+    width: 50%;
+    height: 420px;
+    left: 50%;
+    bottom: 444px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.firstpart {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondpart {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.class7 {
+    background-color: red;
+    display: inline-block;
+    height: 100px;
     width: 100px;
+}
+
+.class8 {
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.class9 {
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.class10 {
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.class11 {
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.class12 {
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+
+/* third container starts here */
+
+.third_container {
+    height: 400px;
+    align-items: center;
 }
