@@ -4,7 +4,7 @@
     }
     
     .navbar {
-        background-color: #AEFEFF;
+        background-color: #04293A;
         height: 70px;
         position: fixed;
         display: flex;
@@ -14,7 +14,7 @@
     .logo {
         height: 60px;
         width: 60px;
-        background-color: #7A0BC0;
+        background-color: whitesmoke;
         border-radius: 100%;
         margin-left: 50px;
     }
@@ -32,11 +32,10 @@
     }
     
     li ul :hover {
-        font-family: 'Open Sans', sans-serif;
         text-decoration-line: none;
-        color: black;
+        color: white;
         cursor: pointer;
-        /* padding: 0px 0px; */
+        font-weight: 700;
     }
     /* first container starts from here */
     
@@ -58,7 +57,7 @@
     
     .first img {
         border-radius: 10%;
-        box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF;
+        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF;  */
     }
     
     .second {
@@ -69,7 +68,7 @@
     
     .second img {
         border-radius: 10%;
-        box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF;
+        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF; */
     }
     
     .third {
@@ -80,7 +79,7 @@
     
     .third img {
         border-radius: 10%;
-        box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF;
+        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF; */
     }
     
     .fourth {
@@ -91,7 +90,7 @@
     
     .fourth img {
         border-radius: 10%;
-        box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF;
+        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF; */
     }
     /* second conatiner starts from here */
     
@@ -109,7 +108,7 @@
         height: 420px;
     }
     
-    .class {
+    .notes {
         position: relative;
         background-color: rgb(43, 122, 126);
         width: 50%;
@@ -138,7 +137,7 @@
         display: inline-block;
         height: 100px;
         width: 100px;
-        border: solid #9145B6 4px;
+        border: solid black 4px;
         border-radius: 20%;
         display: flex;
         justify-content: space-around;
@@ -149,7 +148,7 @@
         display: inline-block;
         height: 100px;
         width: 100px;
-        border: solid #9145B6 4px;
+        border: solid black 4px;
         border-radius: 20%;
         display: flex;
         justify-content: space-around;
@@ -160,7 +159,7 @@
         display: inline-block;
         height: 100px;
         width: 100px;
-        border: solid #9145B6 4px;
+        border: solid black 4px;
         border-radius: 20%;
         display: flex;
         justify-content: space-around;
@@ -171,7 +170,7 @@
         display: inline-block;
         height: 100px;
         width: 100px;
-        border: solid #9145B6 4px;
+        border: solid black 4px;
         border-radius: 20%;
         display: flex;
         justify-content: space-around;
@@ -182,7 +181,7 @@
         display: inline-block;
         height: 100px;
         width: 100px;
-        border: solid #9145B6 4px;
+        border: solid black 4px;
         border-radius: 20%;
         display: flex;
         justify-content: space-around;
@@ -193,7 +192,7 @@
         display: inline-block;
         height: 100px;
         width: 100px;
-        border: solid #9145B6 4px;
+        border: solid black 4px;
         border-radius: 20%;
         display: flex;
         justify-content: space-around;
@@ -225,4 +224,32 @@
         width: 300px;
         height: 300px;
         margin-top: 50px;
+    }
+    /* footer starts here */
+    
+    .fourth_container {
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+    }
+    
+    .address {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .mail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
