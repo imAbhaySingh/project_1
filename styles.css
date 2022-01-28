@@ -1,255 +1,253 @@
-    body {
-        margin: 0%;
-        padding: 0;
-    }
-    
-    .navbar {
-        background-color: #04293A;
-        height: 70px;
-        position: fixed;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .logo {
-        height: 60px;
-        width: 60px;
-        background-color: whitesmoke;
-        border-radius: 100%;
-        margin-left: 50px;
-    }
-    
-    li {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        padding-left: 10px;
-    }
-    
-    .ul a {
-        padding: 5px 20px;
-        text-decoration: none;
-    }
-    
-    li ul :hover {
-        text-decoration-line: none;
-        color: white;
-        cursor: pointer;
-        font-weight: 700;
-    }
-    /* first container starts from here */
-    
-    .first_container {
-        color: salmon;
-        background-color: rgb(137, 218, 221);
-        margin: 0;
-        position: relative;
-        height: 400px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .first {
-        padding-left: 60px;
-        padding-top: 20px;
-        color: black;
-    }
-    
-    .first img {
-        border-radius: 10%;
-        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF;  */
-    }
-    
-    .second {
-        padding-left: 60px;
-        padding-top: 20px;
-        color: black;
-    }
-    
-    .second img {
-        border-radius: 10%;
-        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF; */
-    }
-    
-    .third {
-        padding-left: 60px;
-        padding-top: 20px;
-        color: black;
-    }
-    
-    .third img {
-        border-radius: 10%;
-        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF; */
-    }
-    
-    .fourth {
-        padding-left: 60px;
-        padding-top: 20px;
-        color: black;
-    }
-    
-    .fourth img {
-        border-radius: 10%;
-        /* box-shadow: 0 0 6px #FF0000, 0 0 10px #0000FF; */
-    }
-    /* second conatiner starts from here */
-    
-    .second_container {
-        height: 400px;
-        background-color: rgb(137, 218, 221);
-    }
-    
-    .img {
-        display: inline-block;
-        position: relative;
-        background-image: url(images/class.jpg);
-        background-size: cover;
-        width: 50%;
-        height: 420px;
-    }
-    
-    .notes {
-        position: relative;
-        background-color: rgb(43, 122, 126);
-        width: 50%;
-        height: 420px;
-        left: 50%;
-        bottom: 425px;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
-    
-    .firstpart {
-        padding-left: 50px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .secondpart {
-        padding-left: 50px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .class7 {
-        background-color: red;
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border: solid black 4px;
-        border-radius: 20%;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .class8 {
-        background-color: red;
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border: solid black 4px;
-        border-radius: 20%;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .class9 {
-        background-color: red;
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border: solid black 4px;
-        border-radius: 20%;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .class10 {
-        background-color: red;
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border: solid black 4px;
-        border-radius: 20%;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .class11 {
-        background-color: red;
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border: solid black 4px;
-        border-radius: 20%;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .class12 {
-        background-color: red;
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border: solid black 4px;
-        border-radius: 20%;
-        display: flex;
-        justify-content: space-around;
-    }
-    /* third container starts here */
-    
-    .third_container {
-        background-color: rgb(137, 218, 221);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-    h4 {
-        width: 750px;
-    }
-    
-    #image1 {
-        border-radius: 100%;
-        width: 300px;
-        height: 300px;
-        margin-top: 50px;
-    }
-    
-    #image2 {
-        border-radius: 100%;
-        width: 300px;
-        height: 300px;
-        margin-top: 50px;
-    }
-    /* footer starts here */
-    
-    .fourth_container {
-        display: flex;
-        justify-content: space-around;
-        height: 300px;
-    }
-    
-    .address {
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    .contact {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    .mail {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+   body {
+       margin: 0%;
+       padding: 0;
+   }
+   
+   .navbar {
+       background-color: #04293A;
+       height: 70px;
+       position: fixed;
+       display: flex;
+       justify-content: center;
+   }
+   
+   .logo {
+       height: 60px;
+       width: 60px;
+       background-color: whitesmoke;
+       border-radius: 100%;
+       margin-left: 50px;
+   }
+   
+   li {
+       list-style: none;
+       display: flex;
+       justify-content: space-around;
+       padding-left: 10px;
+       margin-right: 50px;
+   }
+   
+   .ul a {
+       padding: 5px 20px;
+       text-decoration: none;
+   }
+   
+   li ul :hover {
+       text-decoration-line: none;
+       color: white;
+       cursor: pointer;
+       font-weight: 700;
+   }
+   /* first container starts from here */
+   
+   .first_container {
+       color: salmon;
+       background-color: rgb(137, 218, 221);
+       margin: 0;
+       position: relative;
+       height: 450px;
+       display: flex;
+       justify-content: space-evenly;
+       align-content: center;
+   }
+   
+   .first {
+       padding-left: 60px;
+       padding-top: 50px;
+       color: black;
+   }
+   
+   .first img {
+       border-radius: 10%;
+   }
+   
+   .second {
+       padding-left: 60px;
+       padding-top: 50px;
+       color: black;
+   }
+   
+   .second img {
+       border-radius: 10%;
+   }
+   
+   .third {
+       padding-left: 60px;
+       padding-top: 50px;
+       color: black;
+   }
+   
+   .third img {
+       border-radius: 10%;
+   }
+   
+   .fourth {
+       padding-left: 60px;
+       padding-top: 50px;
+       color: black;
+   }
+   
+   .fourth img {
+       border-radius: 10%;
+   }
+   /* second conatiner starts from here */
+   
+   .second_container {
+       height: 500px;
+       background-color: rgb(137, 218, 221);
+   }
+   
+   .img {
+       display: inline-block;
+       position: relative;
+       background-image: url(images/class.jpg);
+       background-size: cover;
+       width: 50%;
+       height: 479px;
+   }
+   
+   .notes {
+       position: relative;
+       background-color: rgb(43, 122, 126);
+       width: 50%;
+       height: 480px;
+       left: 50%;
+       bottom: 485px;
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column;
+   }
+   
+   .firstpart {
+       padding-left: 50px;
+       display: flex;
+       justify-content: space-evenly;
+   }
+   
+   .secondpart {
+       padding-left: 50px;
+       display: flex;
+       justify-content: space-evenly;
+   }
+   
+   .class7 {
+       background-color: red;
+       display: inline-block;
+       height: 100px;
+       width: 100px;
+       border: solid black 4px;
+       border-radius: 20%;
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   .class8 {
+       background-color: red;
+       display: inline-block;
+       height: 100px;
+       width: 100px;
+       border: solid black 4px;
+       border-radius: 20%;
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   .class9 {
+       background-color: red;
+       display: inline-block;
+       height: 100px;
+       width: 100px;
+       border: solid black 4px;
+       border-radius: 20%;
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   .class10 {
+       background-color: red;
+       display: inline-block;
+       height: 100px;
+       width: 100px;
+       border: solid black 4px;
+       border-radius: 20%;
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   .class11 {
+       background-color: red;
+       display: inline-block;
+       height: 100px;
+       width: 100px;
+       border: solid black 4px;
+       border-radius: 20%;
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   .class12 {
+       background-color: red;
+       display: inline-block;
+       height: 100px;
+       width: 100px;
+       border: solid black 4px;
+       border-radius: 20%;
+       display: flex;
+       justify-content: space-around;
+   }
+   /* third container starts here */
+   
+   .third_container {
+       background-color: rgb(137, 218, 221);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+   
+   .carousel-inner {
+       padding: 0 300px 40px 300px;
+   }
+   
+   #image1 {
+       border-radius: 100%;
+       width: 300px;
+       height: 300px;
+       margin-top: 50px;
+   }
+   
+   #image2 {
+       border-radius: 100%;
+       width: 300px;
+       height: 300px;
+       margin-top: 50px;
+   }
+   /* footer starts here */
+   
+   .fourth_container {
+       display: flex;
+       justify-content: space-around;
+       height: 300px;
+   }
+   
+   .address {
+       width: 300px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-content: center;
+   }
+   
+   .contact {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-content: center;
+   }
+   
+   .mail {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
